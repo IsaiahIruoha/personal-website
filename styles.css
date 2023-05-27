@@ -197,18 +197,22 @@
   .skills-section > h1 {
     position: relative; 
     top: 4vh;
-    
   }
   
   .skills-section > h2 {
     position: relative; 
     top: 4vh;
-    padding-top: 4rem;
+    margin-top: 6rem;
+  }
+
+  .additional-skills { 
+    padding-bottom: 5rem; 
   }
   
   .skills-section > ul {
     position: relative; 
     top: 4vh;
+    margin-top: 2rem; 
   }
   
   .icons:hover {
@@ -271,18 +275,19 @@
   }
   
   .code {
-    color: var(--main-gray);
+    color: transparent;
     transition: color 0.3s ease-out;
   }
   
   .project:hover .code {
-    color: orange;
+    color: var(--main-charcoal);
   }
   
   .project-image {
     height: calc(100% - 6.8rem);
     width: 100%;
     object-fit: cover;
+    border: solid black 2px; 
   }
   
   .project-title {
@@ -295,7 +300,7 @@
     top: 3vh; 
     display: inline-block;
     padding: 1rem 2rem;
-    border-radius: 2px;
+    border-radius: 5px;
   }
   
   .btn-resume {
@@ -350,3 +355,17 @@
   .contact-details:hover {
     transform: translateY(8px);
   }
+
+  ::-webkit-scrollbar {
+    width: 10px; 
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--main-charcoal);
+    border-radius: 12px; 
+    opacity: 50%;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--main-offwhite);
+}
