@@ -182,13 +182,19 @@
       text-align: center;
     }
     .welcome-section {
-      margin-top: 25rem; 
+      margin-top: 15rem; 
     }
-
     .welcome-section h1 {
       margin-bottom: 2rem; 
     }
   }
+
+  @media only screen and (max-width: 350px) {
+    .welcome-section {
+      margin-top: 25rem; 
+    }
+  }
+  
   
   .welcome-section > img:hover {
   transition: all ease-in 2s; 
