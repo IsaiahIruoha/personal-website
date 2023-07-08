@@ -219,6 +219,7 @@
     max-width: 80%; 
     border-radius: 20px;
     padding: 10px; 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4)
   }
   
   #blurb:hover {
@@ -373,6 +374,7 @@
   .additional-skills p {
     margin: 2rem; 
     text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
   }
 
   @media only screen and (max-width: 767px) {
