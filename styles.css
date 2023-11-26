@@ -219,7 +219,7 @@
     max-width: 80%; 
     border-radius: 20px;
     padding: 10px; 
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4)
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
   }
   
   #blurb:hover {
@@ -233,7 +233,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 80vh;
+    height: auto;
     background-color: var(--main-offwhite);
     position: relative; 
     margin-top: 10rem;
@@ -252,6 +252,21 @@
   @media only screen and (max-width: 767px) {
     .skills-section {
       margin-top: 130rem; 
+    }
+
+    .skills-section ul {
+      max-width: 80%; 
+      flex-wrap: wrap;
+    }
+    .skills-section li {
+      padding-top: 2rem; 
+      margin: 0.25rem 0.25rem; 
+    }
+  }
+
+  @media only screen and (max-width: 1500px) {
+    .skills-section {
+      margin-top: 20rem; 
     }
 
     .skills-section ul {
