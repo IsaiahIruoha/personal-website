@@ -18,7 +18,7 @@ function Project() {
                 />
                 <p className="project-title">
                 <span className="code">&lt;</span>
-                Hyperloop GUI (Frontend)
+                {' '}Hyperloop GUI (Frontend){' '}
                 <span className="code">&#47;&gt;</span>
                 </p>
             </a>
@@ -35,7 +35,7 @@ function Project() {
                 />
                 <p className="project-title">
                 <span className="code">&lt;</span>
-                PacMan (C/C++)
+                {' '}PacMan (C/C++){' '}
                 <span className="code">&#47;&gt;</span>
                 </p>
             </a>
@@ -52,7 +52,7 @@ function Project() {
                 />
                 <p className="project-title">
                 <span className="code">&lt;</span>
-                E-Commerce Site (MERN)
+                {' '}E-Commerce Site (MERN){' '}
                 <span className="code">&#47;&gt;</span>
                 </p>
             </a>
@@ -69,7 +69,7 @@ function Project() {
                 />
                 <p className="project-title">
                 <span className="code">&lt;</span>
-                PLC Programming (TIA)
+                {' '}PLC Programming (TIA){' '}
                 <span className="code">&#47;&gt;</span>
                 </p>
             </a>
@@ -86,7 +86,7 @@ function Project() {
                 />
                 <p className="project-title">
                 <span className="code">&lt;</span>
-                Excel Lite (C)
+                {' '}Excel Lite (C){' '}
                 <span className="code">&#47;&gt;</span>
                 </p>
             </a>
@@ -103,7 +103,7 @@ function Project() {
                 />
                 <p className="project-title">
                 <span className="code">&lt;</span>
-                Calculator (React)
+                {' '}Calculator (React){' '}
                 <span className="code">&#47;&gt;</span>
                 </p>
             </a>
