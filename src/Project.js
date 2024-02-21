@@ -13,8 +13,8 @@ function Project() {
             >
                 <img
                 className="project-image"
-                src="/Assets/hyperloop.png"
-                alt="project"
+                src={process.env.PUBLIC_URL + '/assets/hyperloop.png'} 
+                alt='hyperloop'
                 />
                 <p className="project-title">
                 <span className="code">&lt;</span>
@@ -30,8 +30,8 @@ function Project() {
             >
                 <img
                 className="project-image"
-                src="/Assets/pacman.png"
-                alt="project"
+                src={process.env.PUBLIC_URL + '/assets/pacman.png'} 
+                alt='pacman'
                 />
                 <p className="project-title">
                 <span className="code">&lt;</span>
@@ -47,8 +47,8 @@ function Project() {
             >
                 <img
                 className="project-image"
-                src="/Assets/buyonic.png"
-                alt="project"
+                src={process.env.PUBLIC_URL + '/assets/buyonic.png'} 
+                alt='buyonic'
                 />
                 <p className="project-title">
                 <span className="code">&lt;</span>
@@ -64,8 +64,8 @@ function Project() {
             >
                 <img
                 className="project-image"
-                src="/Assets/conveyor.png"
-                alt="project"
+                src={process.env.PUBLIC_URL + '/assets/conveyor.png'} 
+                alt='conveyor'
                 />
                 <p className="project-title">
                 <span className="code">&lt;</span>
@@ -81,8 +81,8 @@ function Project() {
             >
                 <img
                 className="project-image"
-                src="/Assets/excellite.png"
-                alt="project"
+                src={process.env.PUBLIC_URL + '/assets/excellite.png'} 
+                alt='excellite'
                 />
                 <p className="project-title">
                 <span className="code">&lt;</span>
@@ -98,8 +98,8 @@ function Project() {
             >
                 <img
                 className="project-image"
-                src="/Assets/calculator.png"
-                alt="project"
+                src={process.env.PUBLIC_URL + '/assets/calculator.png'} 
+                alt='calculator'
                 />
                 <p className="project-title">
                 <span className="code">&lt;</span>
