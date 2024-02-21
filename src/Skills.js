@@ -45,13 +45,13 @@ function Skills() {
             </li>
             <li>
               <div className="image-container">
-              <img className="icons" id="java" src={process.env.PUBLIC_URL + '/assets/java.png'} alt='java' />
+              <img className="icons" id="java" src={process.env.PUBLIC_URL + '/assets/Java.png'} alt='java' />
               <div className="label">Java</div>
               </div>
             </li>
             <li>
               <div className="image-container">
-              <img className="icons" id="chartjs" src={process.env.PUBLIC_URL + '/assets/chartjs.png'} alt='chartjs' />
+              <img className="icons" id="chartjs" src={process.env.PUBLIC_URL + '/assets/Chartjs.png'} alt='chartjs' />
               <div className="label">ChartJS</div>
             </div>
             </li>
@@ -63,37 +63,37 @@ function Skills() {
             </li>
             <li>
               <div className="image-container">
-              <img className="icons" id="processing" src={process.env.PUBLIC_URL + '/assets/processing.png'} alt='processing' />
+              <img className="icons" id="processing" src={process.env.PUBLIC_URL + '/assets/Processing.png'} alt='processing' />
               <div className="label">Processing</div>
               </div>
             </li>
             <li>
               <div className="image-container">
-              <img className="icons" id="jquery" src={process.env.PUBLIC_URL + '/assets/jquery.png'} alt='jquery' />
+              <img className="icons" id="jquery" src={process.env.PUBLIC_URL + '/assets/jQuery.png'} alt='jquery' />
               <div className="label">jQuery</div>
             </div>
             </li>
             <li>
               <div className="image-container">
-              <img className="icons" id="bootstrap" src={process.env.PUBLIC_URL + '/assets/bootstrap.png'} alt='bootstrap' />
+              <img className="icons" id="bootstrap" src={process.env.PUBLIC_URL + '/assets/Bootstrap.png'} alt='bootstrap' />
               <div className="label">Bootstrap</div>
             </div>
             </li>
             <li>
               <div className="image-container">
-              <img className="icons" id="redux" src={process.env.PUBLIC_URL + '/assets/redux.png'} alt='redux' />
+              <img className="icons" id="redux" src={process.env.PUBLIC_URL + '/assets/Redux.png'} alt='redux' />
               <div className="label">Redux</div>
               </div>
             </li>
             <li>
               <div className="image-container">
-              <img className="icons" id="react" src={process.env.PUBLIC_URL + '/assets/react.png'} alt='react' />
+              <img className="icons" id="react" src={process.env.PUBLIC_URL + '/assets/React.png'} alt='react' />
               <div className="label">React</div>
               </div>
             </li>
             <li>
               <div className="image-container">
-              <img className="icons" id="sass" src={process.env.PUBLIC_URL + '/assets/sass.svg'} alt='sass' />
+              <img className="icons" id="sass" src={process.env.PUBLIC_URL + '/assets/Sass.svg'} alt='sass' />
               <div className="label">SASS</div>
               </div>
             </li>
