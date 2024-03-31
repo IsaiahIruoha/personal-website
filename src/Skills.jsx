@@ -12,8 +12,8 @@ function Skills() {
         data-aos-offset="250"
         data-aos-duration="500">
         <section className="skills-section"> 
-          <h1 id="skills">Technical Experience</h1>
-          <h3>I Have Worked With</h3>
+          <h2 id="skills">Technical Experience</h2>
+          <h3>Languages, Frameworks and Libraries</h3>
           <ul className="nav-list">
             <li>
               <div className="image-container">
