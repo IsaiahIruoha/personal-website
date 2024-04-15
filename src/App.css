@@ -299,8 +299,12 @@ transform: scale(1.1);
 }
 
 @media (max-width: 28.75em) {
-  .skills-section > h1 {
+  .skills-section > h2 {
     width: 90%;
+  }
+  .skills-section > h3 {
+    width: 90%;
+    text-align: center;
   }
 }
 
