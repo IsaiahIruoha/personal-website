@@ -388,6 +388,7 @@ height: 50px;
   background-color: #F2F2F2;
   border-radius: 10px;
   animation: headerAnimation 2s ease-in-out infinite;
+  width: 100%; 
 }
 
 @keyframes headerAnimation {

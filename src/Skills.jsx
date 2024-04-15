@@ -41,8 +41,8 @@ function Skills() {
             </li>
             <li>
               <div className="image-container">
-              <img className="icons" id="c++" src={process.env.PUBLIC_URL + '/assets/c++.svg'} alt='C++' />
-              <div className="label">C++</div>
+              <img className="icons" id="python" src={process.env.PUBLIC_URL + '/assets/python.svg.png'} alt='python' />
+              <div className="label">Python</div>
               </div>
             </li>
             <li>
@@ -139,6 +139,24 @@ function Skills() {
               <div className="image-container">
               <img className="icons" id="git" src={process.env.PUBLIC_URL + '/assets/git.png'} alt='git' />
               <div className="label">Git</div>
+              </div>
+            </li>
+            <li>
+              <div className="image-container">
+              <img className="icons" id="tensorflow" src={process.env.PUBLIC_URL + '/assets/tensorflow.svg.png'} alt='tensorflow' />
+              <div className="label">TensorFlow</div>
+              </div>
+            </li>
+            <li>
+              <div className="image-container">
+              <img className="icons" id="pytorch" src={process.env.PUBLIC_URL + '/assets/pytorch.svg.png'} alt='pytorch' />
+              <div className="label">Pytorch</div>
+              </div>
+            </li>
+            <li>
+              <div className="image-container">
+              <img className="icons" id="scikitlearn" src={process.env.PUBLIC_URL + '/assets/scikitlearn.svg.png'} alt='scikitlearn' />
+              <div className="label">scikit-learn</div>
               </div>
             </li>
           </ul>

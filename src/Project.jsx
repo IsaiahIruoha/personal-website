@@ -12,16 +12,16 @@ function Project() {
         data-aos-offset="250"
         data-aos-duration="500">
       <section className="projects-section">
-        <h1 className="projects-section-header" id="projects">Past & Present Work</h1>
+        <h2 className="projects-section-header" id="projects">Past & Present Work</h2>
         <div className="projects-grid">
              <a
-                href="https://github.com/IsaiahIruoha/PacMan"
+                href="https://isaiahiruoha.github.io/arbitrage/#/"
                 target="_blank"
                 className="project project-tile"
             >
                 <img
                 className="project-image"
-                src={process.env.PUBLIC_URL + '/assets/cryptoarb.jpg'} 
+                src={process.env.PUBLIC_URL + '/assets/cryptoarbitrage.png'} 
                 alt='crypto arbitrage pathfinding'
                 />
                 <p className="project-title">
@@ -42,10 +42,42 @@ function Project() {
                 />
                 <p className="project-title">
                 <span className="code">&lt;</span>
-                {' '}E-Commerce Site (MERN){' '}
+                {' '}E-Commerce Site{' '}
+                <span className="code">&#47;&gt;</span>
+                </p>
+            </a>
+            <a
+                href="https://github.com/IsaiahIruoha/walking-jumping-classification-app"
+                target="_blank"
+                className="project project-tile"
+            >
+                <img
+                className="project-image"
+                src={process.env.PUBLIC_URL + '/assets/jumporwalk.png'} 
+                alt='walkjump'
+                />
+                <p className="project-title">
+                <span className="code">&lt;</span>
+                {' '}Walk/Jump Classifier{' '}
                 <span className="code">&#47;&gt;</span>
                 </p>
             </a>     
+            <a
+                href="https://github.com/IsaiahIruoha/excel-lite-project"
+                target="_blank"
+                className="project project-tile"
+            >
+                <img
+                className="project-image"
+                src={process.env.PUBLIC_URL + '/assets/excel.png'} 
+                alt='excellite'
+                />
+                <p className="project-title">
+                <span className="code">&lt;</span>
+                {' '}Excel Lite{' '}
+                <span className="code">&#47;&gt;</span>
+                </p>
+            </a>
             <a
                 href="https://github.com/MOMOtrial/Hyperloop-GUI"
                 target="_blank"
@@ -58,55 +90,23 @@ function Project() {
                 />
                 <p className="project-title">
                 <span className="code">&lt;</span>
-                {' '}Hyperloop GUI (Frontend){' '}
+                {' '}Hyperloop GUI{' '}
                 <span className="code">&#47;&gt;</span>
                 </p>
             </a>
             <a
-                href="https://github.com/IsaiahIruoha/excel-lite-project"
+                href="https://github.com/IsaiahIruoha/android-app-guessmaster"
                 target="_blank"
                 className="project project-tile"
             >
                 <img
                 className="project-image"
-                src={process.env.PUBLIC_URL + '/assets/excellite.png'} 
-                alt='excellite'
+                src={process.env.PUBLIC_URL + '/assets/androidapp.png'} 
+                alt='androidapp'
                 />
                 <p className="project-title">
                 <span className="code">&lt;</span>
-                {' '}Excel Lite (C/C++){' '}
-                <span className="code">&#47;&gt;</span>
-                </p>
-            </a>
-            <a
-                href="https://isaiahiruoha.github.io/ios-calculator-replica/"
-                target="_blank"
-                className="project project-tile"
-            >
-                <img
-                className="project-image"
-                src={process.env.PUBLIC_URL + '/assets/calculator.png'} 
-                alt='calculator'
-                />
-                <p className="project-title">
-                <span className="code">&lt;</span>
-                {' '}Calculator (React){' '}
-                <span className="code">&#47;&gt;</span>
-                </p>
-            </a>
-            <a
-                href="https://github.com/IsaiahIruoha/PLCProgramming"
-                target="_blank"
-                className="project project-tile"
-            >
-                <img
-                className="project-image"
-                src={process.env.PUBLIC_URL + '/assets/conveyor.png'} 
-                alt='conveyor'
-                />
-                <p className="project-title">
-                <span className="code">&lt;</span>
-                {' '}PLC Programming (TIA){' '}
+                {' '}Android Game Application{' '}
                 <span className="code">&#47;&gt;</span>
                 </p>
             </a>
