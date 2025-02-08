@@ -1,4 +1,5 @@
 import './App.css';
+import ThemeToggle from './components/ThemeToggle';
 
 function Nav() {
   return (
@@ -17,6 +18,9 @@ function Nav() {
           </li>
           <li>
             <a href="#contact">Contact</a>
+          </li>
+          <li className="theme-toggle-container">
+            <ThemeToggle />
           </li>
         </ul>
       </nav>

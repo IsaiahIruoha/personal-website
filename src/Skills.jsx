@@ -14,7 +14,7 @@ function Skills() {
         <section className="skills-section"> 
           <h2 id="skills">Technical Experience</h2>
           <h3>Languages, Frameworks and Libraries</h3>
-          <ul className="nav-list">
+          <ul className="skills-list">
             <li>
               <div className="image-container">
                 <img className="icons" id="javascript" src={process.env.PUBLIC_URL + '/assets/javascript.png'} alt='javascript' />
@@ -161,7 +161,7 @@ function Skills() {
             </li>
           </ul>
           <h3>Other Tools</h3>
-          <ul className="nav-list">
+          <ul className="skills-list">
             <li>
               <div className="image-container">
               <img className="icons" id="solidworks" src={process.env.PUBLIC_URL + '/assets/solidworks.png'} alt='solidworks' />
